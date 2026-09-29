@@ -1,0 +1,22 @@
+{
+  "name": "jev-hooks",
+  "version": "1.0.0",
+  "description": "Confirm destructive Bash commands and grade prompts before they are sent, using TypeSafe's Jev",
+  "author": {
+    "name": "Dan Badea"
+  },
+  "userConfig": {
+    "typesafe_api_key": {
+      "type": "string",
+      "title": "TypeSafe API key",
+      "description": "Key for https://api.typesafe.ai. Leave empty to use the TYPESAFE_API_KEY environment variable.",
+      "sensitive": true
+    },
+    "grade_prompts": {
+      "type": "boolean",
+      "title": "Grade prompts",
+      "description": "Grade each prompt with Jev and hold weak ones before they are sent",
+      "default": true
+    }
+  }
+}

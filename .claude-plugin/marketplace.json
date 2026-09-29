@@ -1,0 +1,14 @@
+{
+  "name": "jev-hooks",
+  "description": "Claude Code hooks backed by TypeSafe's Jev judge",
+  "owner": {
+    "name": "Dan Badea"
+  },
+  "plugins": [
+    {
+      "name": "jev-hooks",
+      "source": "./plugins/jev-hooks",
+      "description": "Confirm destructive Bash commands and grade prompts before they are sent, using TypeSafe's Jev"
+    }
+  ]
+}
